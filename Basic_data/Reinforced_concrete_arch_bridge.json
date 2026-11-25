@@ -1,0 +1,452 @@
+{
+  "桥面系": {
+    "桥面铺装": {
+      "weight": 0.40,
+      "diseases": [
+        {
+          "name": "变形",
+          "max_scale": 4
+        },
+        {
+          "name": "泛油",
+          "max_scale": 4
+        },
+        {
+          "name": "破损",
+          "max_scale": 4
+        },
+        {
+          "name": "裂缝",
+          "max_scale": 4
+        },
+        {
+          "name": "磨光、脱皮、露骨",
+          "max_scale": 4
+        },
+        {
+          "name": "错台",
+          "max_scale": 4
+        },
+        {
+          "name": "坑洞",
+          "max_scale": 4
+        },
+        {
+          "name": "剥落",
+          "max_scale": 4
+        },
+        {
+          "name": "拱起",
+          "max_scale": 4
+        },
+        {
+          "name": "接缝料损坏",
+          "max_scale": 4
+        },
+        {
+          "name": "水泥铺装裂缝",
+          "max_scale": 4
+        }
+      ]
+    },
+    "伸缩缝装置": {
+      "weight": 0.25,
+      "diseases": [
+        {
+          "name": "凹凸不平",
+          "max_scale": 4
+        },
+        {
+          "name": "锚固区缺陷",
+          "max_scale": 4
+        },
+        {
+          "name": "破损",
+          "max_scale": 4
+        },
+        {
+          "name": "失效",
+          "max_scale": 4
+        }
+      ]
+    },
+    "人行道": {
+      "weight": 0.10,
+      "diseases": [
+        {
+          "name": "破损",
+          "max_scale": 4
+        },
+        {
+          "name": "失效",
+          "max_scale": 4
+        }
+      ]
+    },
+    "栏杆护栏": {
+      "weight": 0.10,
+      "diseases": [
+        {
+          "name": "撞坏、缺失",
+          "max_scale": 4
+        },
+        {
+          "name": "破损",
+          "max_scale": 4
+        }
+      ]
+    },
+    "排水系统": {
+      "weight": 0.10,
+      "diseases": [
+        {
+          "name": "排水不畅",
+          "max_scale": 4
+        },
+        {
+          "name": "泄水管、引水槽缺陷",
+          "max_scale":3
+        }
+      ]
+    },
+    "照明标志": {
+      "weight": 0.05,
+      "diseases": [
+        {
+          "name": "污损或损坏",
+          "max_scale": 4
+        },
+        {
+          "name": "照明设施缺失",
+          "max_scale": 4
+        },
+        {
+          "name": "标志脱落、缺失",
+          "max_scale": 3
+        }
+      ]
+    }
+  },
+  "上部结构": {
+    "主拱圈": {
+      "weight": 0.70,
+      "diseases": [
+        {
+          "name": "变形",
+          "max_scale": 5
+        },
+        {
+          "name": "裂缝",
+          "max_scale": 5
+        },
+        {
+          "name": "渗水",
+          "max_scale": 4
+        },
+        {
+          "name": "拱铰功能受损",
+          "max_scale": 5
+        },
+        {
+          "name": "拱脚位移",
+          "max_scale": 5
+        },
+        {
+          "name": "蜂窝、麻面",
+          "max_scale": 3
+        },
+        {
+          "name": "剥落、掉角",
+          "max_scale": 4
+        },
+        {
+          "name": "空洞、孔洞",
+          "max_scale": 4
+        },
+        {
+          "name": "混凝土保护层厚度",
+          "max_scale": 4
+        },
+        {
+          "name": "钢筋锈蚀",
+          "max_scale": 5
+        },
+        {
+          "name": "混凝土碳化",
+          "max_scale": 4
+        },
+        {
+          "name": "混凝土强度",
+          "max_scale": 5
+        }
+      ]
+    },
+    "拱上结构": {
+      "weight": 0.18,
+      "diseases": [
+        {
+          "name": "侧墙与主拱圈脱裂",
+          "max_scale": 5
+        },
+        {
+          "name": "侧墙变形",
+          "max_scale": 5
+        },
+        {
+          "name": "拱上填料沉陷或开裂",
+          "max_scale": 4
+        },
+        {
+          "name": "腹拱或横向联系变形、错位",
+          "max_scale": 5
+        },
+        {
+          "name": "立墙或立柱倾斜",
+          "max_scale": 5
+        },
+        {
+          "name": "拱上结构裂缝",
+          "max_scale": 4
+        },
+        {
+          "name": "拱上填料排水不畅",
+          "max_scale": 4
+        }
+      ]
+    },
+    "桥面板": {
+      "weight": 0.12,
+      "diseases": [
+        {
+          "name": "蜂窝、麻面",
+          "max_scale": 3
+        },
+        {
+          "name": "剥落、掉角",
+          "max_scale": 4
+        },
+        {
+          "name": "空洞、孔洞",
+          "max_scale": 4
+        },
+        {
+          "name": "混凝土保护层厚度",
+          "max_scale": 4
+        },
+        {
+          "name": "钢筋锈蚀",
+          "max_scale": 5
+        },
+        {
+          "name": "混凝土碳化",
+          "max_scale": 4
+        },
+        {
+          "name": "混凝土强度",
+          "max_scale": 5
+        },
+        {
+          "name": "跨中挠度",
+          "max_scale": 5
+        },
+        {
+          "name": "结构变位",
+          "max_scale": 5
+        },
+        {
+          "name": "预应力构件损伤",
+          "max_scale": 5
+        },
+        {
+          "name": "简支梁(板)桥裂缝",
+          "max_scale": 5
+        },
+        {
+          "name": "连续梁桥裂缝",
+          "max_scale": 5
+        }
+      ]
+    }
+  },
+  "下部结构": {
+    "翼墙、耳墙": {
+      "weight": 0.02,
+      "diseases": [
+        {
+          "name": "破损",
+          "max_scale": 4
+        },
+        {
+          "name": "位移",
+          "max_scale": 4
+        },
+        {
+          "name": "鼓肚、砌体松动",
+          "max_scale": 4
+        },
+        {
+          "name": "裂缝",
+          "max_scale": 4
+        }
+      ]
+    },
+    "锥坡、护坡": {
+      "weight": 0.01,
+      "diseases": [
+        {
+          "name": "缺损",
+          "max_scale": 4
+        },
+        {
+          "name": "冲刷",
+          "max_scale": 4
+        }
+      ]
+    },
+    "桥墩": {
+      "weight": 0.30,
+      "diseases": [
+        {
+          "name": "蜂窝、麻面",
+          "max_scale": 3
+        },
+        {
+          "name": "剥落、露筋",
+          "max_scale": 4
+        },
+        {
+          "name": "空洞、孔洞",
+          "max_scale": 4
+        },
+        {
+          "name": "钢筋锈蚀",
+          "max_scale": 5
+        },
+        {
+          "name": "混凝土碳化、腐蚀",
+          "max_scale": 4
+        },
+        {
+          "name": "磨损",
+          "max_scale": 4
+        },
+        {
+          "name": "圬工砌体缺陷",
+          "max_scale": 4
+        },
+        {
+          "name": "位移",
+          "max_scale": 5
+        },
+        {
+          "name": "裂缝",
+          "max_scale": 5
+        }
+      ]
+    },
+    "桥台": {
+      "weight": 0.30,
+      "diseases": [
+        {
+          "name": "剥落",
+          "max_scale": 4
+        },
+        {
+          "name": "空洞、孔洞",
+          "max_scale": 4
+        },
+        {
+          "name": "磨损",
+          "max_scale": 3
+        },
+        {
+          "name": "混凝土碳化、腐蚀",
+          "max_scale": 3
+        },
+        {
+          "name": "圬工砌体缺陷",
+          "max_scale": 4
+        },
+        {
+          "name": "桥头跳车",
+          "max_scale": 4
+        },
+        {
+          "name": "台背排水状况",
+          "max_scale": 4
+        },
+        {
+          "name": "位移",
+          "max_scale": 5
+        },
+        {
+          "name": "裂缝",
+          "max_scale": 5
+        }
+      ]
+    },
+    "墩台基础": {
+      "weight": 0.28,
+      "diseases": [
+        {
+          "name": "冲刷、掏空",
+          "max_scale": 5
+        },
+        {
+          "name": "剥落、露筋",
+          "max_scale": 5
+        },
+        {
+          "name": "冲蚀",
+          "max_scale": 4
+        },
+        {
+          "name": "河底铺砌损坏",
+          "max_scale": 4
+        },
+        {
+          "name": "沉降",
+          "max_scale": 5
+        },
+        {
+          "name": "滑移、倾斜",
+          "max_scale": 5
+        },
+        {
+          "name": "裂缝",
+          "max_scale": 5
+        }
+      ]
+    },
+    "河床": {
+      "weight": 0.07,
+      "diseases": [
+        {
+          "name": "堵塞",
+          "max_scale": 4
+        },
+        {
+          "name": "冲刷",
+          "max_scale": 4
+        },
+        {
+          "name": "河床变迁",
+          "max_scale": 4
+        }
+      ]
+    },
+    "调治构造物": {
+      "weight": 0.02,
+      "diseases": [
+        {
+          "name": "损坏",
+          "max_scale": 4
+        },
+        {
+          "name": "冲刷、变形",
+          "max_scale": 4
+        }
+      ]
+    }
+  }
+}

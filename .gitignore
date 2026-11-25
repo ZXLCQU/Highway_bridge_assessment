@@ -1,0 +1,38 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.log
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Project archives and exported assessment data stay local
+/Saved_Projects/*
+!/Saved_Projects/.gitkeep
+/Export_data/*
+!/Export_data/.gitkeep
